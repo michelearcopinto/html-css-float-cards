@@ -42,7 +42,7 @@ main {
     border: 1px solid red;
 }
 
-.flexcard {
+.float-card {
     border: 1px solid blue;
 }
 
@@ -50,33 +50,32 @@ main>div {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.flexcard {
+.float-card {
     float: left;
     width: calc(100% / 3 - 25px);
     margin: 0px 25px 50px 0px;
     box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
 }
 
-.flexcard>figure {
+.float-card>figure {
     width: 30%;
 }
 
-.flexcard>figure,
-.flexcard-info {
+.float-card>figure {
     float: left;
 }
 
-.flexcard-info {
-    padding: 13px 0px 0px 13px;
+.float-card-info {
+    padding: 13px 0px 0px 120px;
 }
 
-.flexcard-info li {
+.float-card-info li {
     list-style-type: none;
     color: white;
     margin-bottom: 8px;
 }
 
-.flexcard li:first-child {
+.float-card li:first-child {
     text-transform: uppercase;
 }
 
