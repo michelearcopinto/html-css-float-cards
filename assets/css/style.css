@@ -47,7 +47,7 @@ main {
 }
 
 main>div {
-    /* background-color: black; */
+    background-color: black;
 }
 
 .flexcard {
@@ -60,6 +60,27 @@ main>div {
     width: 30%;
 }
 
+.flexcard>figure,
+.flexcard-info {
+    float: left;
+}
+
+.flexcard-info {
+    padding: 13px 0px 0px 13px;
+}
+
 .flexcard-info li {
     list-style-type: none;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.flexcard li:first-child {
+    text-transform: uppercase;
+}
+
+address>a {
+    color: #30d5ff;
+    font-style: normal;
+    text-decoration: none;
 }
