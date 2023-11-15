@@ -47,13 +47,14 @@ main {
 }
 
 main>div {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .flexcard {
     float: left;
     width: calc(100% / 3 - 25px);
     margin: 0px 25px 50px 0px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
 }
 
 .flexcard>figure {
