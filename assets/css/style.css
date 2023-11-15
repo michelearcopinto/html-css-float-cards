@@ -10,6 +10,56 @@
     clear: both;
 }
 
+img {
+    width: 100%;
+}
+
 html {
     font-family: 'Fredoka', sans-serif;
+}
+
+.content {
+    width: 75%;
+    margin-inline: auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header>h1 {
+    color: #e53170;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+header>p {
+    font-size: 18px;
+}
+
+main {
+    border: 1px solid red;
+}
+
+.flexcard {
+    border: 1px solid blue;
+}
+
+main>div {
+    /* background-color: black; */
+}
+
+.flexcard {
+    float: left;
+    width: calc(100% / 3 - 25px);
+    margin: 0px 25px 50px 0px;
+}
+
+.flexcard>figure {
+    width: 30%;
+}
+
+.flexcard-info li {
+    list-style-type: none;
 }
